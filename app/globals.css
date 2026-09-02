@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   DESIGN TOKENS — change the whole site theme from here
+   Theme: Red & White
+   ============================================================ */
+:root {
+  --color-primary: #c8102e;
+  --color-primary-700: #9e0b23;
+  --color-secondary: #7f1d1d;
+  --color-accent: #a4161a;
+  /* brighter red for use on near-black surfaces (contrast) */
+  --red-bright: #ff3b54;
+  /* near-black used by the manifesto feature band */
+  --ink: #0a0a0c;
+
+  --color-bg: #ffffff;
+  --color-surface: #ffffff;
+  --color-surface-2: #faf5f5;
+
+  --color-text: #1a1416;
+  --color-muted: #6b6065;
+  --color-border: #ece1e1;
+
+  --radius: 12px;
+  --shadow-card: 0 1px 2px rgba(26, 20, 22, 0.05),
+    0 16px 36px -18px rgba(200, 16, 46, 0.18);
+  --container: 1200px;
+
+  /* Layered near-black → burgundy → campaign-red hero backdrop */
+  --gradient-hero:
+    radial-gradient(1200px 820px at 74% 42%, rgba(211, 19, 50, 0.30), transparent 60%),
+    radial-gradient(900px 700px at 92% 68%, rgba(140, 10, 28, 0.34), transparent 55%),
+    radial-gradient(760px 620px at 10% 16%, rgba(120, 8, 22, 0.20), transparent 55%),
+    linear-gradient(
+      118deg,
+      #050505 0%,
+      #0a0507 30%,
+      #1c060c 56%,
+      #3c0a15 78%,
+      #5c0c1a 100%
+    );
+
+  /* Professional red → soft-black gradient for feature bands */
+  --gradient-brand: radial-gradient(
+      120% 120% at 12% 8%,
+      #d21732 0%,
+      var(--color-primary) 32%,
+      var(--color-primary-700) 55%,
+      #3a1418 78%,
+      #1b1416 100%
+    );
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --color-primary: #ef4a5f;
+    --color-primary-700: #f26b7c;
+    --color-secondary: #f08a8a;
+    --color-accent: #ef4a5f;
+
+    --color-bg: #120b0d;
+    --color-surface: #1b1214;
+    --color-surface-2: #241719;
+
+    --color-text: #f6edef;
+    --color-muted: #b7a6ab;
+    --color-border: #38272b;
+
+    --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4),
+      0 16px 36px -18px rgba(0, 0, 0, 0.6);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --color-primary: #ef4a5f;
+  --color-primary-700: #f26b7c;
+  --color-secondary: #f08a8a;
+  --color-accent: #ef4a5f;
+  --color-bg: #120b0d;
+  --color-surface: #1b1214;
+  --color-surface-2: #241719;
+  --color-text: #f6edef;
+  --color-muted: #b7a6ab;
+  --color-border: #38272b;
+  --shadow-card: 0 1px 2px rgba(0, 0, 0, 0.4),
+    0 16px 36px -18px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+    /* offset for the sticky header when jumping to a section */
+    scroll-padding-top: 5.5rem;
+  }
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display), Georgia, serif;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+  }
+  ::selection {
+    background: var(--color-primary);
+    color: #fff;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  section[id] {
+    scroll-margin-top: 5.5rem;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-eyebrow text-accent;
+  }
+  .prose-measure {
+    @apply max-w-measure text-[1.0625rem] leading-[1.75] text-muted;
+  }
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-size: 0% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    transition: background-size 0.3s ease;
+  }
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+
+  /* Plain solid card surfaces (kept as class names for reuse). */
+  .glass,
+  .glass-strong {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    box-shadow: var(--shadow-card);
+  }
+  .crystal-sheen {
+    position: relative;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
