@@ -57,12 +57,12 @@ export default function EngagementsSection() {
       gsap.to(".eb-dot", {
         scale: 1,
         opacity: 1,
-        stagger: 1,
+        stagger: 0.5,
         ease: "back.out(1.6)",
         scrollTrigger: {
           trigger: sectionRef.current,
           start: "top 60%",
-          end: "bottom 75%",
+          end: "bottom 80%",
           scrub: 1,
         },
       });
@@ -75,7 +75,7 @@ export default function EngagementsSection() {
       });
       gsap.to(".eb-arc", {
         strokeDashoffset: 0,
-        stagger: 1,
+        stagger: 0.5,
         ease: "none",
         scrollTrigger: {
           trigger: sectionRef.current,
@@ -145,7 +145,7 @@ export default function EngagementsSection() {
           transition={{ duration: 0.6 }}
           className="mt-8 text-sm text-white/40 lg:pl-16"
         >
-          {engagements.length} international forums across {new Set(engagements.map((e) => e.region)).size} regions.
+          {engagements.length} international engagements across {new Set(engagements.map((e) => e.region)).size} regions and {new Set(engagements.map((e) => e.country)).size} countries.
         </motion.p>
       </Container>
     </section>
