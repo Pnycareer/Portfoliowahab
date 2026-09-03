@@ -36,6 +36,33 @@ export const candidate = {
     "I am a technology entrepreneur and industry professional with 10+ years of experience, with a core focus on skills development, human capital development and gaming. Through Eraflip Tech and my industry engagements, I have worked to connect talent, technology and business opportunities. As an active member of Rotary International, I also contribute to social welfare and community development initiatives.",
   personalMessage:
     "I am standing in the P@SHA CEC election because Associate members need representation that is close to their day-to-day challenges — scaling a company, winning international clients, hiring the right talent, and adopting new technology. This is my commitment to listen, represent those concerns, and work on practical outcomes members can measure.",
+  /* Campaign message shown as its own section, ahead of the manifesto. */
+  pitch: {
+    eyebrow: "A message from the candidate",
+    headlineLead: "Associate today.",
+    headlineAccent: "Industry leader tomorrow.",
+    lead: "My vision is simple — turn Associate representation into Associate growth.",
+    body: [
+      "I am pleased to share my manifesto for the P@SHA CEC Elections 2026, Associate Class. I believe our Associate members have the potential to become tomorrow's leading technology companies.",
+      "We need stronger pathways that help them scale their businesses, develop talent, access global markets, embrace emerging technologies, and build meaningful industry collaborations.",
+    ],
+    priorities: [
+      { icon: "TrendingUp", label: "Associate-to-Corporate growth" },
+      { icon: "Globe", label: "Global market access & IT exports" },
+      { icon: "GraduationCap", label: "Talent & skills development" },
+      { icon: "Cpu", label: "Gaming, AI & emerging technologies" },
+      { icon: "Handshake", label: "Stronger Associate voice & industry collaboration" },
+    ],
+    close:
+      "This is not just about securing a seat. It is about bringing an execution-focused approach to the CEC — working together to create measurable opportunities for our members and Pakistan's technology ecosystem.",
+    ask: "I respectfully ask for your support and vote in the P@SHA CEC Elections 2026.",
+    signature: [
+      "Wahab Yunus",
+      "Founder — Eraflip Tech",
+      "Candidate — Associate Class, P@SHA CEC Elections 2026",
+    ],
+    tagline: "Turning Associate representation into Associate growth.",
+  },
   /* Career milestones — (demo) placeholder, replace with verified detail. */
   journey: [
     {

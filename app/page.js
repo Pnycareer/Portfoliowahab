@@ -2,11 +2,12 @@ import { buildMetadata } from "@/lib/seo";
 import { candidate } from "@/data/candidate";
 import Hero from "@/components/home/Hero";
 import Introduction from "@/components/home/Introduction";
+import CandidateMessage from "@/components/home/CandidateMessage";
+import ManifestoSection from "@/components/manifesto/ManifestoSection";
+import EngagementsSection from "@/components/home/visits/EngagementsSection";
 import Priorities from "@/components/home/Priorities";
 import VisionMission from "@/components/home/VisionMission";
-import ManifestoSection from "@/components/manifesto/ManifestoSection";
 import AchievementsPreview from "@/components/home/AchievementsPreview";
-import EngagementsSection from "@/components/home/visits/EngagementsSection";
 import StatsBand from "@/components/home/StatsBand";
 import UpcomingEvents from "@/components/home/UpcomingEvents";
 import FinalCTA from "@/components/home/FinalCTA";
@@ -22,11 +23,12 @@ export default function HomePage() {
     <>
       <Hero />
       <Introduction />
+      <CandidateMessage />
+      <ManifestoSection />
+      <EngagementsSection />
       <Priorities />
       <VisionMission />
-      <ManifestoSection />
       <AchievementsPreview />
-      <EngagementsSection />
       <StatsBand />
       <UpcomingEvents />
       <FinalCTA />
