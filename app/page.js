@@ -23,12 +23,12 @@ export default function HomePage() {
     <>
       <Hero />
       <Introduction />
+      <AchievementsSection />
       <CandidateMessage />
       <ManifestoSection />
       <EngagementsSection />
       <Priorities />
       <VisionMission />
-      <AchievementsSection />
       <StatsBand />
       <UpcomingEvents />
       <FinalCTA />
