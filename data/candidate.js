@@ -44,7 +44,7 @@ export const candidate = {
     paragraphs: [
       "As CEO & Founder of PNY Trainings, established in 2017, I have focused on bridging the gap between skills, industry and employment. PNY has empowered 100,000+ learners, expanded to 7 campuses across Pakistan, built a team of 100+ professionals, and established an international presence in the UAE.",
       "In 2021, I founded Eraflip Tech, a gaming and technology studio focused on building Made-in-Pakistan digital products for global markets — including games, mobile applications, web development and digital solutions.",
-      "I have signed 100+ MoUs and contributed to major government-backed initiatives — including PSEB TechLift, NAVTTC and PSDF programs — strengthening industry–academia collaboration. I have also organised large-scale IT conferences engaging 35,000+ participants and 700+ industry experts.",
+      "I have signed 200+ MoUs and contributed to major government-backed initiatives — including PSEB TechLift, NAVTTC and PSDF programs — strengthening industry–academia collaboration. I have also organised large-scale IT conferences engaging 35,000+ participants and 700+ industry experts.",
     ],
     ventures: [
       {
@@ -68,7 +68,7 @@ export const candidate = {
       { value: 100000, suffix: "+", label: "Learners trained" },
       { value: 7, label: "Campuses in Pakistan" },
       { value: 100, suffix: "+", label: "Team members" },
-      { value: 100, suffix: "+", label: "MoUs signed" },
+      { value: 200, suffix: "+", label: "MoUs signed" },
       { value: 35000, suffix: "+", label: "Conference participants" },
       { value: 700, suffix: "+", label: "Industry experts engaged" },
     ],

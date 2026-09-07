@@ -7,7 +7,7 @@ import ManifestoSection from "@/components/manifesto/ManifestoSection";
 import EngagementsSection from "@/components/home/visits/EngagementsSection";
 import Priorities from "@/components/home/Priorities";
 import VisionMission from "@/components/home/VisionMission";
-import AchievementsPreview from "@/components/home/AchievementsPreview";
+import AchievementsSection from "@/components/home/achievements/AchievementsSection";
 import StatsBand from "@/components/home/StatsBand";
 import UpcomingEvents from "@/components/home/UpcomingEvents";
 import FinalCTA from "@/components/home/FinalCTA";
@@ -28,7 +28,7 @@ export default function HomePage() {
       <EngagementsSection />
       <Priorities />
       <VisionMission />
-      <AchievementsPreview />
+      <AchievementsSection />
       <StatsBand />
       <UpcomingEvents />
       <FinalCTA />
