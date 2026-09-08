@@ -16,14 +16,13 @@ export const site = {
 export const nav = [
   { label: "Home", href: "/#top" },
   { label: "About", href: "/#about" },
-  { label: "Vision", href: "/#vision" },
-  { label: "Manifesto", href: "/#manifesto" },
   { label: "Achievements", href: "/#achievements" },
-  { label: "Events", href: "/#events" },
-  { label: "Contact", href: "/#contact" },
+  { label: "Message", href: "/#message" },
+  { label: "Manifesto", href: "/#manifesto" },
+  { label: "Global", href: "/#engagements" },
 ];
 
-export const primaryCta = { label: "How to Vote", href: "/#vote" };
+export const primaryCta = { label: "Read the Manifesto", href: "/#manifesto" };
 
 export const contact = {
   officeName: "Northgate Campaign Office",
