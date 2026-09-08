@@ -10,6 +10,7 @@ import VisionMission from "@/components/home/VisionMission";
 import AchievementsSection from "@/components/home/achievements/AchievementsSection";
 import StatsBand from "@/components/home/StatsBand";
 import UpcomingEvents from "@/components/home/UpcomingEvents";
+import HowToVote from "@/components/home/HowToVote";
 import FinalCTA from "@/components/home/FinalCTA";
 
 export const metadata = buildMetadata({
@@ -31,6 +32,7 @@ export default function HomePage() {
       <VisionMission />
       <StatsBand />
       <UpcomingEvents />
+      <HowToVote />
       <FinalCTA />
     </>
   );

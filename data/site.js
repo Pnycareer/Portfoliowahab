@@ -23,7 +23,7 @@ export const nav = [
   { label: "Contact", href: "/#contact" },
 ];
 
-export const primaryCta = { label: "Join the Campaign", href: "/#contact" };
+export const primaryCta = { label: "How to Vote", href: "/#vote" };
 
 export const contact = {
   officeName: "Northgate Campaign Office",
