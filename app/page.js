@@ -6,10 +6,11 @@ import AchievementsSection from "@/components/home/achievements/AchievementsSect
 import CandidateMessage from "@/components/home/CandidateMessage";
 import ManifestoSection from "@/components/manifesto/ManifestoSection";
 import EngagementsSection from "@/components/home/visits/EngagementsSection";
+import HowToVote from "@/components/home/HowToVote";
 
 export const metadata = buildMetadata({
   title: null,
-  description: `${candidate.name}, ${candidate.position} for ${candidate.constituency}. Read the message, manifesto and global engagements.`,
+  description: `${candidate.name}, ${candidate.position} for ${candidate.constituency}. Read the message, manifesto, global engagements and how to vote.`,
   path: "/",
 });
 
@@ -22,6 +23,7 @@ export default function HomePage() {
       <CandidateMessage />
       <ManifestoSection />
       <EngagementsSection />
+      <HowToVote />
     </>
   );
 }

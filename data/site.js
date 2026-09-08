@@ -22,7 +22,7 @@ export const nav = [
   { label: "Global", href: "/#engagements" },
 ];
 
-export const primaryCta = { label: "Read the Manifesto", href: "/#manifesto" };
+export const primaryCta = { label: "How to Vote", href: "/#vote" };
 
 export const contact = {
   officeName: "Northgate Campaign Office",
