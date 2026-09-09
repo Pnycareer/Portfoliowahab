@@ -1,13 +1,13 @@
 /* DEMO CONTENT — replace with real campaign details before publishing. */
 
 export const site = {
-  name: "Wahab Yunus — P@SHA CEC 2026",
+  name: "Wahab Yunus · P@SHA CEC 2026",
   shortName: "Wahab Yunus",
   url: "https://example-campaign.org",
   titleDefault:
-    "Wahab Yunus — Candidate, P@SHA CEC Election 2026 (Associate Members)",
+    "Wahab Yunus · Candidate, P@SHA CEC Election 2026 (Associate Members)",
   description:
-    "Campaign site for Wahab Yunus, Founder of Eraflip Tech and candidate in the P@SHA CEC Election 2026 for Associate members. Read the manifesto and platform. (Demo build.)",
+    "Campaign site for Wahab Yunus, Founder of Eraflip Tech and candidate in the P@SHA CEC Election 2026 for Associate members. Read the manifesto and platform.",
   defaultOgImage: "/images/og-default.jpg",
 };
 
@@ -22,7 +22,7 @@ export const nav = [
   { label: "Global", href: "/#engagements" },
 ];
 
-export const primaryCta = { label: "How to Vote", href: "/#vote" };
+export const primaryCta = { label: "How To Vote", href: "/#vote" };
 
 export const contact = {
   officeName: "Northgate Campaign Office",

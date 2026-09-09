@@ -1,11 +1,11 @@
-/* International conferences, summits and forums — global exposure and
- * representation during the campaign period. Countries / events as provided
+/* International conferences, summits and forums: global exposure and
+ * representation during the campaign period. Countries and events as provided
  * by the candidate. */
 
 export const engagementsIntro = {
-  eyebrow: "Global exposure & representation",
-  title: "On the world stage for Pakistan's IT industry",
-  body: "From startup and education-technology forums to AI, fintech, trade summits and Rotary — representing Pakistan's technology sector at the events where the industry's direction is set, and where Associate members' route to global markets begins.",
+  eyebrow: "Global Exposure & Representation",
+  title: "On The World Stage For Pakistan's IT Industry",
+  body: "From startup and education technology forums to AI, fintech, trade summits and Rotary, representing Pakistan's technology sector at the events where the industry's direction is set, and where Associate members' route to global markets begins.",
 };
 
 export const engagements = [
@@ -31,7 +31,7 @@ export const engagements = [
     id: "davos-switzerland",
     country: "Switzerland",
     flag: "🇨🇭",
-    name: "Pakistan Business Summit — Davos & WEF-related engagements",
+    name: "Pakistan Business Summit, Davos & WEF Engagements",
     location: "Davos, Switzerland",
     region: "Europe",
     theme: "Trade, investment & policy",
@@ -103,7 +103,7 @@ export const engagements = [
     id: "icmr-uzbekistan",
     country: "Uzbekistan",
     flag: "🇺🇿",
-    name: "ICMR — International Conference on Management Research",
+    name: "ICMR International Conference on Management Research",
     location: "Uzbekistan",
     region: "Central Asia",
     theme: "Management & research",

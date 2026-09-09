@@ -102,7 +102,7 @@ export default function Hero() {
                 href="/#manifesto"
                 className="inline-flex items-center justify-center rounded-xl border border-white/20 bg-white/[0.03] px-7 py-3.5 text-sm font-semibold text-white transition-colors duration-300 hover:border-white/35 hover:bg-white/[0.08] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40"
               >
-                Read the Manifesto
+                Read The Manifesto
               </Link>
             </motion.div>
           </div>

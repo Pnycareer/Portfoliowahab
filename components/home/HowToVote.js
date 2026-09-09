@@ -17,7 +17,7 @@ export default function HowToVote() {
         <Reveal delay={0.05}>
           <span className="inline-flex items-center gap-2 rounded-full border border-primary/25 bg-primary/10 px-4 py-2 text-sm font-semibold text-primary">
             <CalendarDays className="h-4 w-4" aria-hidden />
-            Polling day — {voteIntro.pollingDay}
+            Polling Day · {voteIntro.pollingDay}
           </span>
         </Reveal>
       </div>
@@ -43,7 +43,7 @@ export default function HowToVote() {
           <p className="max-w-xl text-sm text-muted">{voteNote}</p>
           <Button href="/#manifesto" variant="outline" withArrow className="shrink-0">
             <Vote className="mr-1 h-4 w-4" aria-hidden />
-            Read the manifesto first
+            Read The Manifesto First
           </Button>
         </div>
       </Reveal>

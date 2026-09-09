@@ -23,12 +23,12 @@ export default function CampaignCTA() {
         transition={{ duration: 0.8, ease: EASE }}
         className="relative font-display text-[2.5rem] leading-[1.04] tracking-tight text-white sm:text-6xl lg:text-[4.5rem]"
       >
-        Your voice.
+        Your Voice.
         <br />
-        <span className="text-white/35">Our industry.</span>
+        <span className="text-white/35">Our Industry.</span>
         <br />
         <span className="bg-gradient-to-r from-red-bright to-accent bg-clip-text text-transparent">
-          Our future.
+          Our Future.
         </span>
       </motion.h3>
 

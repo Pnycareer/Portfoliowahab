@@ -7,7 +7,7 @@
 
 export const manifestoIntro = {
   title: "My Promise / Manifesto",
-  body: "Five commitments focused on helping Associate members grow — from scaling their companies and reaching global markets, to building talent and adopting emerging technology, with a stronger collective voice across the industry.",
+  body: "Five commitments focused on helping Associate members grow, from scaling their companies and reaching global markets, to building talent and adopting emerging technology, with a stronger collective voice across the industry.",
 };
 
 export const manifesto = [
@@ -15,15 +15,15 @@ export const manifesto = [
     slug: "associate-to-corporate-growth",
     category: "Growth",
     icon: "TrendingUp",
-    title: "Associate-to-Corporate Growth",
+    title: "Associate To Corporate Growth",
     short:
       "A structured pathway for Associate members to scale up and progress toward Corporate membership.",
     detail:
-      "Create a structured growth pathway for Associate members to scale their businesses, increase revenues and progress toward Corporate membership — building stronger companies that contribute more to Pakistan's IT industry and economy.",
+      "Create a structured growth pathway for Associate members to scale their businesses, increase revenues and progress toward Corporate membership, building stronger companies that contribute more to Pakistan's IT industry and economy.",
     objectives: [
-      "Define clear milestones and support along the Associate-to-Corporate journey",
+      "Define clear milestones and support along the Associate to Corporate journey",
       "Mentorship and peer learning from established Corporate members",
-      "Access to shared resources and business-development support",
+      "Access to shared resources and business development support",
     ],
     impact:
       "More Associate companies reaching sustainable scale and full Corporate membership.",
@@ -40,7 +40,7 @@ export const manifesto = [
     objectives: [
       "Curated trade delegations and international B2B matchmaking",
       "Strategic partnerships with global buyers and platforms",
-      "Export-readiness support for smaller Associate firms",
+      "Export readiness support for smaller Associate firms",
     ],
     impact:
       "Higher export revenue and a wider global footprint for Associate members.",
@@ -51,16 +51,16 @@ export const manifesto = [
     icon: "GraduationCap",
     title: "Talent, Skills & Human Capital Development",
     short:
-      "Practical, industry-driven training and stronger academia links — from learning to employment.",
+      "Practical, industry driven training and stronger academia links, from learning to employment.",
     detail:
-      "Bridge the gap between industry and talent through practical skills development, industry-driven training, academia collaboration and stronger pathways from learning to employment.",
+      "Bridge the gap between industry and talent through practical skills development, industry driven training, academia collaboration and stronger pathways from learning to employment.",
     objectives: [
-      "Industry-defined training and certification tracks",
-      "Structured academia–industry collaboration and internships",
+      "Industry defined training and certification tracks",
+      "Structured academia and industry collaboration and internships",
       "Clear pathways from learning to employment for new talent",
     ],
     impact:
-      "A larger, better-prepared talent pool matched to what the industry needs.",
+      "A larger, better prepared talent pool matched to what the industry needs.",
   },
   {
     slug: "gaming-ai-emerging-tech",
@@ -72,8 +72,8 @@ export const manifesto = [
     detail:
       "Strengthen Pakistan's gaming and technology ecosystem while enabling growing companies to adopt AI, embrace emerging technologies and develop globally competitive products and services.",
     objectives: [
-      "Ecosystem support for gaming and interactive-media companies",
-      "Practical AI-adoption resources for growing firms",
+      "Ecosystem support for gaming and interactive media companies",
+      "Practical AI adoption resources for growing firms",
       "A focus on globally competitive products and services",
     ],
     impact:
@@ -90,7 +90,7 @@ export const manifesto = [
       "Actively listen to Associate members, represent their challenges and strengthen collaboration across the ecosystem to create meaningful business, networking and growth opportunities.",
     objectives: [
       "Regular, structured consultation with Associate members",
-      "Representation of Associate concerns in decision-making",
+      "Representation of Associate concerns in decision making",
       "Networking and collaboration opportunities across the membership",
     ],
     impact: "Associate members who feel heard, connected and supported.",

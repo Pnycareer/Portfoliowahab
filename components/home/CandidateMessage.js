@@ -40,7 +40,7 @@ export default function CandidateMessage() {
           <Reveal delay={0.08}>
             <div className="rounded-lg border border-border bg-surface p-6 sm:p-7">
               <p className="text-xs font-semibold uppercase tracking-eyebrow text-accent">
-                Key priorities
+                Key Priorities
               </p>
               <ul className="mt-4 space-y-3.5">
                 {p.priorities.map((pr) => (
@@ -72,7 +72,7 @@ export default function CandidateMessage() {
               <p className="text-sm text-muted">{p.signature[2]}</p>
             </div>
             <Button href="/#manifesto" withArrow className="shrink-0">
-              Read the full manifesto
+              Read The Full Manifesto
             </Button>
           </div>
 

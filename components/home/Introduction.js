@@ -123,7 +123,7 @@ export default function Introduction() {
           <Reveal>
             <span className="eyebrow">
               <span className="h-px w-6 bg-current opacity-60" aria-hidden />
-              Meet the candidate
+              Meet The Candidate
             </span>
           </Reveal>
 
@@ -157,7 +157,7 @@ export default function Introduction() {
           <Reveal delay={0.15}>
             <div className="mt-8 flex flex-wrap items-center gap-x-3 gap-y-2">
               <span className="text-xs font-semibold uppercase tracking-eyebrow text-accent">
-                National programmes
+                National Programmes
               </span>
               {bio.initiatives.map((it) => (
                 <span
@@ -176,7 +176,7 @@ export default function Introduction() {
                 {candidate.signatureName}
               </p>
               <Button href="/#message" variant="ghost" withArrow>
-                Read the message
+                Read The Message
               </Button>
             </div>
           </Reveal>

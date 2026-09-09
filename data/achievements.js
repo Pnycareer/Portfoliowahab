@@ -1,11 +1,11 @@
-/* Track record — the candidate's companies, platforms and initiatives, plus
- * headline figures. Venture descriptors are short editorial labels; verify /
+/* Track record: the candidate's companies, platforms and initiatives, plus
+ * headline figures. Venture descriptors are short editorial labels; verify and
  * adjust wording as needed. */
 
 export const achievementsIntro = {
-  eyebrow: "Track record",
-  title: "A portfolio built for Pakistan's technology future",
-  body: "Companies, platforms and initiatives spanning training, careers, gaming, advertising, events and social impact — with a national footprint and a growing international presence.",
+  eyebrow: "Track Record",
+  title: "A Portfolio Built For Pakistan's Technology Future",
+  body: "Companies, platforms and initiatives spanning training, careers, gaming, advertising, events and social impact, with a national footprint and a growing international presence.",
 };
 
 export const ventures = [

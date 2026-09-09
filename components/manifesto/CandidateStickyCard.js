@@ -29,7 +29,7 @@ export default function CandidateStickyCard() {
             <h3 className="mt-2 font-display text-2xl leading-tight text-white">
               Wahab Yunus
             </h3>
-            <p className="mt-1 text-sm text-white/50">Founder — Eraflip Tech</p>
+            <p className="mt-1 text-sm text-white/50">Founder, Eraflip Tech</p>
 
             <div className="mt-5 flex items-center gap-2.5 rounded-lg border border-white/10 bg-primary/10 px-4 py-3">
               <span className="relative flex h-2 w-2">
@@ -42,7 +42,7 @@ export default function CandidateStickyCard() {
             </div>
 
             <p className="mt-4 text-xs leading-relaxed text-white/35">
-              P@SHA · Pakistan IT Industry Association — Associate Members
+              P@SHA · Pakistan IT Industry Association · Associate Members
             </p>
           </div>
         </div>
